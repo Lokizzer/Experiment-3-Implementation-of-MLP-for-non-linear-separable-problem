@@ -1,14 +1,14 @@
 # Experiment-3-Implementation-of-MLP-for-non-linear-separable-problem
-**AIM:**
+## AIM: ##
 
 To implement a perceptron for classification using Python
 
-**EQUIPMENTS REQUIRED:**
+## EQUIPMENTS REQUIRED: ##
 
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
-**RELATED THEORETICAL CONCEPT:**
+## RELATED THEORETICAL CONCEPT: ##
 
 Exclusive or is a logical operation that outputs true when the inputs differ.For the XOR gate, the TRUTH table will be as follows
 
@@ -34,17 +34,17 @@ The number of layers in MLP is not fixed and thus can have any number of hidden 
 ## Algorithm : ##
 
 Step 1 : Initialize the input patterns for XOR Gate
+
 Step 2: Initialize the desired output of the XOR Gate
-Step 3: Initialize the weights for the 2 layer MLP with 2 Hidden neuron 
-              and 1 output neuron
-Step 3: Repeat the  iteration  until the losses become constant and 
-              minimum
+
+Step 3: Initialize the weights for the 2 layer MLP with 2 Hidden neuron and 1 output neuron
+
+Step 3: Repeat the  iteration  until the losses become constant and minimum
               (i)  Compute the output using forward pass output
               (ii) Compute the error  
-		          (iii) Compute the change in weight ‘dw’ by using backward 
-                     propagation algorithm.
-             (iv) Modify the weight as per delta rule.
-             (v)   Append the losses in a list
+	      (iii) Compute the change in weight ‘dw’ by using backward propagation algorithm.
+              (iv) Modify the weight as per delta rule.
+              (v)   Append the losses in a list
 Step 4 : Test for the XOR patterns.
 
 ## PROGRAM ##
@@ -127,7 +127,8 @@ predict(w1,w2,test)
  
 ![195976592-fb7298dc-a2a6-4232-9099-1a5c57e14ffb](https://user-images.githubusercontent.com/112338645/196870725-959e2aa1-6323-4583-9b49-8b20dd734883.png)
 
-![image](https://user-images.githubusercontent.com/112338645/196870783-18c0eee7-ca18-4a60-a0e6-9bd087a35421.png)
+![195976610-1de46218-cb6b-470c-b2cf-65e8968f641b](https://user-images.githubusercontent.com/112338645/197011533-0930e09f-4015-421b-8df6-ad7e445e6f30.png)
+
 
  
 
